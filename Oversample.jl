@@ -13,7 +13,7 @@ const granularity=10
 
 ############################### Constantes
 if Type == "Sim_TA" || Type == "Sim_Auger"
-    Datos=readdlm("CienMil_evts.txt")
+    Datos=readdlm("100K_evts.txt")
     RA_Datos=Datos[:,1]
     DEC_Datos=90-Datos[:,2]
     #E_Datos=Datos[:,3]
